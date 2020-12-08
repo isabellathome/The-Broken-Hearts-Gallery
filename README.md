@@ -6,3 +6,18 @@
   Uma galeria apenas para corações quebrados.
  </p>
  
+ <!-- Badges -->
+
+ Tabela de Conteúdos
+
+ ### Features
+
+ ### Demonstração da aplicação
+
+ ### Tecnologias 
+
+ ### Pré-requisitos de como rodar a aplicação 
+
+ ### Autora
+
+ ### Licença
