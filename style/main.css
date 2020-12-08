@@ -27,10 +27,6 @@ body {
     transition: background .2s;
 }
 
-#menu ul li a:hover {
-    background-color: #666666;
-}
-
 #menu ul li:first-child a {
     background-color: black;
     border-radius: 100px;
@@ -38,6 +34,10 @@ body {
     color: white;
 
     cursor: pointer;
+}
+
+#menu ul li:first-child a:hover {
+    background-color: #666666;
 }
 
 #menu ul li:last-child {
