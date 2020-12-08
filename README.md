@@ -8,13 +8,16 @@
  
  <!-- Badges -->
 
- Tabela de Conteúdos
+ ## Tabela de Conteúdos
+ 
 
- ### Features
+ ## Features
 
- ### Demonstração da aplicação
+ ## Demonstração da aplicação
 
- ### Tecnologias 
+ ## Tecnologias
+ * HTML;
+ * CSS.
 
  ### Pré-requisitos de como rodar a aplicação 
 
