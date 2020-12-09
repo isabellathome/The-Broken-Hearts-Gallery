@@ -51,9 +51,74 @@ body {
     font-size: 120px;
     margin-left: 100px;
     margin-top: 80px;
+
+    position: absolute;
 }
 
-.footer {
+aside p {
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+    margin-top: 130px;
+    margin-right: 25px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 680px;
+    margin-top: 50px;
+}
+.div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+} 
+
+.div div:nth-child(1), .div div:nth-child(2) {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+
+.objeto {
+    animation: objeto 2s infinite;
+    position: absolute;
+    z-index: 1;
+}
+
+.bg {
+    animation: bg 2s infinite;
+    opacity: .5;
+}
+
+@keyframes objeto {
+    0%{transform: scale(1)}
+    25%{transform: scale(1.05)}
+    50%{transform: scale(1)}
+}
+
+@keyframes bg {
+    10%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.2);
+        opacity: 0;
+        height: 60px;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+footer {
     font-size: 13px;
     font-family: 'Courier New', Courier, monospace;
     color: white;
