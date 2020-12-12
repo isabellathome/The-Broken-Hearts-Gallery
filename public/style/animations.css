@@ -1,0 +1,90 @@
+                                                /* INDEX */
+
+@keyframes objeto {
+    0%{transform: scale(1)}
+    25%{transform: scale(1.05)}
+    50%{transform: scale(1)}
+}
+
+@keyframes bg {
+    10%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.2);
+        opacity: 0;
+        height: 60px;
+    }
+
+    100%{
+        opacity: 0;
+    }
+}
+
+.objeto {
+    animation: objeto 2s infinite;
+    position: absolute;
+    z-index: 1;
+}
+
+.bg {
+    animation: bg 2s infinite;
+    opacity: .5;
+}
+
+                                             /* LOGIN / CADASTRO */
+
+/*fadeInLeft*/   
+@keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+   
+  /*fadeOutLeft*/
+  @-webkit-keyframes fadeOutLeft {
+    0% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translateX(-20px);
+    }
+  }
+   
+  @keyframes fadeOutLeft {
+    0% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+  }
+
+  /* Efeito ao clicar no botão ( Ir para Login ) */
+#paracadastro:target ~ .content #cadastro,
+#paralogin:target ~ .content #login{
+  z-index: 2;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+ 
+  -webkit-animation-delay: .1s;
+  animation-delay: .1s;
+}
+ 
+/* Efeito ao clicar no botão ( Cadastre-se ) */
+#registro:target ~ .content #login,
+#paralogin:target ~ .content #cadastro{
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+}
+  
