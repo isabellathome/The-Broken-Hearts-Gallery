@@ -2,6 +2,35 @@ body {
     background-color: #FFF8DC;    
 }
 
+header {
+    font-family: 'Lobster', cursive;
+
+    display: inline;
+    float: right;
+    margin-right: 10px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    background-color: black;   
+}
+
+.sidebar aside footer button {
+    height: 50px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+
+    background: white;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* CSS reset */
 *, *:before, *:after { 
     margin:0;
@@ -17,13 +46,11 @@ a.links { /* Para esconder as ancoras da tela */
     display: none;
   }
 
- .content{
+ .content {
     width: 450px;
     min-height: 490px;    
     margin: 0px auto;
     position: relative; 
-    
-    margin-top: 90px;
   }
 
 h1{
@@ -152,3 +179,4 @@ label{
   animation-timing-function: ease;
   animation-fill-mode: both;
 }
+
