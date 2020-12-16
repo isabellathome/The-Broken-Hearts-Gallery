@@ -1,25 +1,28 @@
  <h1 align="center">
   The Broken Hearts Gallery :broken_heart:
  </h1>
-
+ 
+ ## Sobre
  <p align="justify">
   Uma galeria apenas para corações quebrados.
  </p>
  
  <!-- Badges -->
 
- ## Tabela de Conteúdos
- <p align="center">
-    * <a href="#Sobre"> Sobre a Galeria </a>
-    * <a href="#Objetivo"> Objetivo </a>
-    * <a href="#Status"> Status do Projeto </a>
-    * <a href="#Features"> Features </a>
-    * <a href="#Aplicação"> Demonstração da Aplicação </a>
-    * <a href="#Tecnologias"> Tecnologias </a>
-    * <a href="#Requisitos"> Pré-requisitos </a>
-    * <a href="#Autora"> Autora </a>
-    * <a href="#Licença"> Licença </a>
- </p>
+## Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre](#Sobre)
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Status do Projeto](#status-do-projeto)   
+   * [Features](#Sobre)
+   * [Demonstração da Aplicação](#tabela-de-conteudo)
+   * [Tecnologias](#tecnologias)
+   * [Como usar](#como-usar)
+      * [Pre Requisitos](#pre-requisitos)
+   * [Autora](#autora)   
+   * [Licença](#licenca)
+<!--te-->
 
  ## Status do Projeto
  <h3 align="center">
@@ -44,4 +47,5 @@
 
  ### Autora
    Isabella Thomé.
+   
  ### Licença
