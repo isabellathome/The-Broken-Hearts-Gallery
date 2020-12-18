@@ -10,7 +10,6 @@
  <!-- Badges -->
 
 ## Tabela de conteúdos
-=================
 <!--ts-->
    * [Sobre](#Sobre)
    * [Tabela de Conteudo](#tabela-de-conteudo)
@@ -19,15 +18,15 @@
    * [Demonstração da Aplicação](#tabela-de-conteudo)
    * [Tecnologias](#tecnologias)
    * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
+      * [Pré-Requisitos](#pre-requisitos)
    * [Autora](#autora)   
    * [Licença](#licenca)
 <!--te-->
 
  ## Status do Projeto
- <h3 align="center">
+ <p align="center">
     Site em construção... :construction:
- </h3>
+ </p>
 
  ## Features
  * :construction: Página Home
