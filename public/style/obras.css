@@ -7,3 +7,16 @@ body {
     background: #FFF8DC;
 }
 
+header {
+    font-size: 13px;
+    text-align: center;
+
+    display: flex;
+}
+
+.content {
+    width: 70px;
+    height: 70px;
+
+    margin: 250px 40px 10px 0;
+}
